@@ -111,3 +111,28 @@ p {
   text-align: center;
   margin: 30px 10px;
 }
+
+@media(max-width: 576px) {
+    img {
+        display: none;
+    }
+    .app-link {
+        display: block;
+        margin: auto;
+        width: 50%;
+    text-align: center;
+    }
+    h2 {
+        margin-left: 20%;
+    }
+    h2.title {
+        margin-left: 12%;
+    }
+    p {
+        text-align: center;
+    }
+    .contact {
+        font-size: 18px;
+        margin-left: auto;
+    }
+}
